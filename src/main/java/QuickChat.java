@@ -14,7 +14,7 @@ public class QuickChat {
 
     public static void main(String[] args) {
 
-        // ── REGISTRATION ─────────────────────────────────────────────────────
+        // ── REGISTRATION 
         System.out.println("=== QuickChat Registration ===");
         System.out.print("Enter first name: ");
         String firstName = scanner.nextLine();
@@ -36,7 +36,7 @@ public class QuickChat {
             return;
         }
 
-        // ── LOGIN ─────────────────────────────────────────────────────────────
+        // ── LOGIN 
         System.out.println("\n=== QuickChat Login ===");
         System.out.print("Username: ");
         String loginUser = scanner.nextLine();
@@ -51,7 +51,7 @@ public class QuickChat {
             return;
         }
 
-        // ── MAIN MENU ─────────────────────────────────────────────────────────
+        // ── MAIN MENU 
         System.out.println("\nWelcome to QuickChat.");
 
         System.out.print("How many messages do you wish to enter? ");
@@ -104,7 +104,7 @@ public class QuickChat {
         }
     }
 
-    // ── Send a message ────────────────────────────────────────────────────────
+    // ── Send a message 
 
     private static void sendMessage() {
         System.out.print("Enter recipient cell number (international format): ");
@@ -152,7 +152,7 @@ public class QuickChat {
         allMessages.add(msg);
     }
 
-    // ── Stored Messages sub-menu (Part 3) ─────────────────────────────────────
+    // ── Stored Messages sub-menu (Part 3) 
 
     private static void storedMessagesMenu() {
         boolean back = false;
