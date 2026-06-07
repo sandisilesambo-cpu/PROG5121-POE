@@ -1,0 +1,26 @@
+# Compiled Java files
+target/
+*.class
+
+# NetBeans project files
+nbproject/
+build/
+dist/
+nbactions.xml
+nb-configuration.xml
+
+# VS Code files
+.vscode/
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Mac files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# JSON message store (generated at runtime)
+messages.json
