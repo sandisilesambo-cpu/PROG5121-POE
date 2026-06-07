@@ -146,6 +146,7 @@ public class Message {
                 storedMessages.add(messageText);
                 messageHashes.add(messageHash);
                 messageIDs.add(messageID);
+                MessageStorage.storeMessage(messageID, messageHash, recipient, messageText);
                 return "Message successfully stored.";
             default:
                 return "Invalid option.";
